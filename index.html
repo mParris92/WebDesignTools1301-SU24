@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css"> <!-- Link to layout.css -->
+    <!-- Apple Touch Icons and Favicon linked below -->
+    <link rel="stylesheet" href="css/style.css">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -30,10 +33,11 @@
 
     <!-- Header Section -->
     <header>
+        <img src="images/logo.jpg" alt="Logo" class="logo"> <!-- Logo Image -->
         <h1>Welcome to My Home Page</h1>
     </header>
 
-    <nav>
+    <nav class="fixed-nav"> <!-- New class for fixed nav menu -->
         <ul>
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#my-avatar">My Avatar</a></li>
@@ -43,6 +47,13 @@
     </nav>
 
     <main>
+        <aside class="content-list">
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-avatar">My Avatar</a></li>
+                <li><a href="#web-development">Web Development Journey</a></li>
+            </ul>
+        </aside>
         <section id="about-me">
             <h2>About Me</h2>
 

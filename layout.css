@@ -1,0 +1,107 @@
+/* layout.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+}
+
+.fixed-nav {
+    position: sticky;
+    top: 0;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.fixed-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.fixed-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+aside.content-list {
+    float: right;
+    width: 20vw;
+    position: sticky;
+    top: 0;
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    clear: both;
+}
+
+figure {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    max-width: 100%;
+}
+
+.float-left {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.float-right {
+    float: right;
+    width: 45%;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .fixed-nav ul {
+        display: block;
+    }
+
+    .fixed-nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .float-left,
+    .float-right {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+}
