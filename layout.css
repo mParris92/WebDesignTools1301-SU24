@@ -111,7 +111,7 @@ figure {
 }
 
 .team-gallery figure {
-    flex: 1 1 30%; /* Flex item takes up 30% of the container, allowing for multiple columns */
+    flex: 1 1 30%;  
     text-align: center;
     margin: 15px;
     padding: 10px;
@@ -120,7 +120,7 @@ figure {
 }
 
 .team-gallery img {
-    width: 100%; /* Make sure images are responsive */
+    width: 100%; 
     height: auto;
 }
 
