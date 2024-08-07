@@ -26,7 +26,6 @@ header {
     border-bottom: 1px solid #ddd;
     background-color: #333;
     color: rgb(255, 255, 255);
-    text-align: center;
 
 }
 
@@ -187,13 +186,21 @@ footer div {
     float: left;
     width: 45%;
     margin-right: 5%;
+    margin-bottom: 10px; /* Added margin-bottom for spacing with text */
 }
 
 .float-right {
     float: right;
     width: 45%;
     margin-left: 5%;
+    margin-bottom: 10px; /* Added margin-bottom for spacing with text */
 }
+
+/* Paragraph text wrapping */
+p {
+    clear: both; /* Ensures that paragraphs start below any floated elements */
+}
+
 
 @media screen and (max-width: 768px) {
     .fixed-nav ul, .navbar ul {
