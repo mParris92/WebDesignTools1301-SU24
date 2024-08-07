@@ -2,14 +2,29 @@
 
 body {
     font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr; /* Define the width ratios */
+    grid-template-rows: auto 1fr auto;  /* Define the height ratios */
+    gap: 10px; /* Space between grid items */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 header {
+    grid-area: header;
     position: relative;
     text-align: center;
     padding: 10px 0;
     background: #f8f8f8;
     border-bottom: 1px solid #ddd;
+    background-color: #333;
+    color: white;
+    text-align: center;
 }
 
 header .logo {
@@ -21,6 +36,7 @@ header .logo {
 }
 
 .fixed-nav, .navbar {
+    grid-area: nav;
     position: sticky;
     top: 0;
     background: #333;
@@ -50,20 +66,32 @@ header .logo {
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-links {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .nav-links li {
     margin-right: 15px;
 }
+
 .sign-in {
     margin-left: auto;
 }
 
+main {
+    grid-area: main;
+    padding: 10px;
+    background-color: #fff;
+    width: 80vw;
+    margin: 0 auto;
+}
+
 aside.content-list {
+    grid-area: aside;
     float: right;
     width: 20vw;
     position: sticky;
@@ -72,11 +100,6 @@ aside.content-list {
     padding: 10px;
     margin: 10px;
     border: 1px solid #ddd;
-}
-
-main {
-    width: 80vw;
-    margin: 0 auto;
 }
 
 section {
@@ -92,6 +115,33 @@ figure {
     padding: 10px;
     border: 1px solid #ddd;
     max-width: 100%;
+}
+
+footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer div {
+    padding: 10px;
+}
+
+footer div:nth-child(1) {
+    /* External links section */
+}
+
+footer div:nth-child(2) {
+    /* Copyright and email section */
+}
+
+footer div:nth-child(3) {
+    /* Footer navigation */
 }
 
 /* Flexbox for Team Gallery */
@@ -171,4 +221,5 @@ figure {
         margin: 0;
     }
 }
+
 
