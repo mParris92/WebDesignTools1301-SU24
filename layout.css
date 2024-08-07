@@ -93,7 +93,7 @@ main {
 
 aside.content-list {
     grid-area: aside;
-    float: right;
+    float: left;
     width: 20vw;
     position: sticky;
     top: 0;
