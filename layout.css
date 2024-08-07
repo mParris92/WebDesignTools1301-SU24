@@ -182,6 +182,11 @@ footer div {
 }
 
 /* Floating elements adjustment */
+
+img {
+    float: left;
+}
+
 .float-left {
     float: left;
     width: 45%;
@@ -198,7 +203,7 @@ footer div {
 
 /* Paragraph text wrapping */
 p {
-    clear: both; /* Ensures that paragraphs start below any floated elements */
+    float: right; /* Ensures that paragraphs start below any floated elements */
 }
 
 
