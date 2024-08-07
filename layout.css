@@ -26,7 +26,6 @@ header {
     border-bottom: 1px solid #ddd;
     background-color: #333;
     color: rgb(255, 255, 255);
-    padding: 10px;
     text-align: center;
 
 }
@@ -134,6 +133,18 @@ footer {
 
 footer div {
     padding: 10px;
+}
+
+footer div:nth-child(1) {
+    /* External links section */
+}
+
+footer div:nth-child(2) {
+    /* Copyright and email section */
+}
+
+footer div:nth-child(3) {
+    /* Footer navigation */
 }
 
 /* Flexbox for Team Gallery */
