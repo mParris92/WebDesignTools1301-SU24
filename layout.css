@@ -198,6 +198,7 @@ footer div {
 
 /* Paragraph text wrapping */
 p {
+    text-indent: 50px; /*indentation for paragraphs */
     clear: both; /* Ensures that paragraphs start below any floated elements */
 }
 
