@@ -37,6 +37,10 @@ header .logo {
     height: auto;
 }
 
+img {
+    float: right; /* float img element */
+}
+
 .fixed-nav, .navbar {
     grid-area: nav;
     position: sticky;
@@ -198,6 +202,7 @@ footer div {
 
 /* Paragraph text wrapping */
 p {
+    text-justify: 
     text-indent: 50px; /* indentation for paragraphs */
     clear: both; /* Ensures that paragraphs start below any floated elements */
 }
