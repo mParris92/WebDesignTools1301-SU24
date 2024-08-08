@@ -117,7 +117,7 @@ figure {
     padding: 0px;
     border: 1px solid #ddd;
     max-width: 100%;
-    float: right;
+    float: left;
 }
 
 footer {
