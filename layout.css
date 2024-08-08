@@ -104,6 +104,13 @@ aside.content-list {
     border: 1px solid #ddd;
 }
 
+/* Paragraph text wrapping */
+p {
+    text-justify: 
+    text-indent: auto; /* indentation for paragraphs */
+    clear: both; /* Ensures that paragraphs start below any floated elements */
+}
+
 /* section {
     padding: 20px;
     margin: 20px 0;
@@ -195,14 +202,6 @@ footer div {
     margin-left: 5%;
     margin-bottom: 10px; /* Added margin-bottom for spacing with text */
 }
-
-/* Paragraph text wrapping */
-p {
-    text-justify: 
-    text-indent: auto; /* indentation for paragraphs */
-    clear: both; /* Ensures that paragraphs start below any floated elements */
-}
-
 
 @media screen and (max-width: 768px) {
     .fixed-nav ul, .navbar ul {
