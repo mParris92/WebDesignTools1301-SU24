@@ -110,6 +110,7 @@ section {
     border: 1px solid #ddd;
     background: #fafafa;
     clear: both;
+    float: left;
 }
 
 figure {
