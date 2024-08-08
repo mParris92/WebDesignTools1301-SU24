@@ -104,18 +104,18 @@ aside.content-list {
     border: 1px solid #ddd;
 }
 
-section {
+/* section {
     padding: 20px;
     margin: 20px 0;
     border: 1px solid #ddd;
     background: #fafafa;
     clear: both;
-}
+} */
 
 figure {
-    
+    margin: auto;
     padding: 10px;
-    border: 1px solid #050505;
+    border: 1px solid hsl(0, 0%, 100%);
     max-width: 100%;
 }
 
