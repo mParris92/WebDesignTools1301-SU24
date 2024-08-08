@@ -104,16 +104,13 @@ aside.content-list {
     border: 1px solid #ddd;
 }
 
-/* section {
+section {
     padding: 20px;
     margin: 20px 0;
     border: 1px solid #ddd;
     background: #fafafa;
-    clear: both;
-} */
- img {
-    float: left; 
- }
+    clear: none;
+} 
 
 figure {
     margin: auto;
