@@ -113,7 +113,7 @@ section {
 }
 
 figure {
-    margin: 0;
+    
     padding: 10px;
     border: 1px solid #ddd;
     max-width: 100%;
@@ -199,7 +199,7 @@ footer div {
 /* Paragraph text wrapping */
 p {
     text-justify: 
-    text-indent: 50px; /* indentation for paragraphs */
+    text-indent: auto; /* indentation for paragraphs */
     clear: both; /* Ensures that paragraphs start below any floated elements */
 }
 
