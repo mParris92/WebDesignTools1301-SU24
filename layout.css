@@ -44,7 +44,7 @@ header .logo {
     background: #333333;
     color: #fff;
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .fixed-nav ul, .navbar ul {
